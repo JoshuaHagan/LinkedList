@@ -18,7 +18,6 @@ void Player::other(int Health)
 				temp = j;
 				j = i;
 				i = temp;
-				j++;
 			}
 		}
 	}
@@ -26,6 +25,7 @@ void Player::other(int Health)
 
 int main()
 {
+
 	Player p1{ 100 };
 	Player p2{ 55 };
 	Player p3{ 45 };
