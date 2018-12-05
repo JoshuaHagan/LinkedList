@@ -5,14 +5,15 @@ template <typename J>
 class DynamicArray
 {
 private:
-	//pointer for dynamic array
+	//Make the pointer for dynamic array
 	J * data;
 
-	//size of the array
+	//The size of the array
 	int size;
 
 	//the amount of index being used
 	int amount;
+
 public:
 	//constructor for dynamic array
 	DynamicArray();

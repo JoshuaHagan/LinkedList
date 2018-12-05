@@ -18,6 +18,9 @@ int main()
 	//delete the last value int the index of the array
 	array.DeleteLast(2);
 	//Print out into the console
+	std::cout << array.getData(0) << std::endl;
+	std::cout << array.getData(1) << std::endl;
+	std::cout << array.getData(2) << std::endl;
 	std::cout << array.getData(3) << std::endl;
 
 	system("pause");
